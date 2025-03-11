@@ -1,0 +1,6 @@
+projectKey=com.tecmax.demo:bruz-mvn-webapp-demo
+serverUrl=http://192.168.1.108:9000
+serverVersion=25.3.0.104237
+dashboardUrl=http://192.168.1.108:9000/dashboard?id=com.tecmax.demo%3Abruz-mvn-webapp-demo
+ceTaskId=c2d7ac18-90c4-468d-8ee1-ca9d93bc2a25
+ceTaskUrl=http://192.168.1.108:9000/api/ce/task?id=c2d7ac18-90c4-468d-8ee1-ca9d93bc2a25
