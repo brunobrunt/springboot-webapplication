@@ -7,15 +7,19 @@
     <groupId>com.tecmax.demo</groupId>
     <artifactId>bruz-mvn-webapp-demo</artifactId>
     <packaging>war</packaging>
-    <version>1.0.0-SNAPSHOT</version>
-    <name>bruno_brunt maven_webapp</name>
+    <version>2.0.0</version>
+    <name>bruz_maven_webapp</name>
     <url>http://maven.apache.org</url>
 
     <distributionManagement>
-        <snapshotRepository>
-            <id>nexus-snapshots</id>
-            <url>http://54.159.177.72:8081/nexus/content/maven-snapshots/snapshots</url>
-        </snapshotRepository>
+	    <snapshotRepository>
+               <id>nexus-snapshots</id>
+               <url>http://zeus.phalangestech.ca:8081/repository/maven-snapshots/</url>
+            </snapshotRepository>
+            <repository>
+               <id>nexus-release</id>
+               <url>http://zeus.phalangestech.ca:8081/repository/maven-releases/</url>
+            </repository>
     </distributionManagement>
 
     <dependencies>
@@ -78,7 +82,7 @@
             <plugin>
                 <groupId>io.snyk</groupId>
                 <artifactId>snyk-maven-plugin</artifactId>
-                <version>2.2.0</version>
+                <version>2.3.0</version>
                 <inherited>false</inherited>
             </plugin>
         </plugins>
