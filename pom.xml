@@ -7,13 +7,10 @@
     <groupId>com.tecmax.demo</groupId>
     <artifactId>bruz-mvn-webapp-demo</artifactId>
     <packaging>war</packaging>
-<<<<<<< HEAD
     <version>2.0.0</version>
     <name>bruz_maven_webapp</name>
-=======
     <version>2.0.0-SNAPSHOT</version>
     <name>bruno_brunt maven_webapp</name>
->>>>>>> refs/remotes/origin/main
     <url>http://maven.apache.org</url>
 
     <distributionManagement>
